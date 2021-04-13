@@ -33,5 +33,5 @@
 
 /bin
 /obj
-*.depand
+*.depend
 *.layout
