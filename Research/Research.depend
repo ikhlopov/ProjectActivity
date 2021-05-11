@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1487012148 source:e:\ilya\programming\cb repos\project activity\project\plant.c
+	<math.h>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	"plant.h"
+
+1487011920 e:\ilya\programming\cb repos\project activity\project\plant.h
+

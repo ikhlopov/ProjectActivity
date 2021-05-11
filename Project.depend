@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1620726096 source:e:\ilya\programming\cb repos\project activity\project\main.cpp
+	<iostream>
+	"IOlib.h"
+	"process.h"
+	"plant.h"
+
+1614708353 e:\ilya\programming\cb repos\project activity\project\iolib.h
+	"IOlib.hpp"
+
+1487012148 source:e:\ilya\programming\cb repos\project activity\project\plant.c
+	<math.h>
+	<time.h>
+	<stdio.h>
+	<stdlib.h>
+	"plant.h"
+
+1487011920 e:\ilya\programming\cb repos\project activity\project\plant.h
+
+1620726115 e:\ilya\programming\cb repos\project activity\project\iolib.hpp
+	<iostream>
+
+1614699602 e:\ilya\programming\cb repos\project activity\project\process.h
+	"process.hpp"
+
+1620725976 e:\ilya\programming\cb repos\project activity\project\process.hpp
+	<chrono>
+	<thread>
+	"plant.h"
+

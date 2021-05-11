@@ -31,7 +31,3 @@
 *.out
 *.app
 
-/bin
-/obj
-*.depend
-*.layout
