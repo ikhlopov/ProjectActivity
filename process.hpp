@@ -5,18 +5,16 @@
 //#include <iostream>
 #include "plant.h"
 
-double CWCA (int SnsCh, int CtrlCh, double CtrlAct, int wait, int J, Plant plant){// control, wait, check, average
-
-    plant_control(CtrlCh, CtrlAct, plant);//control
-    std::this_thread::sleep_for(std::chrono::seconds(wait));//wait
+double CWCA (int SnsCh, int CtrlCh,
+             double CtrlAct, double wait,
+             int J, Plant plant){
+    plant_control(CtrlCh, CtrlAct, plant);//Ñontrol
+    std::this_thread::sleep_for(std::chrono::milliseconds(static_cast<int>(wait*1000)));//Wait
     double sum=0;
-    double a;
     for(int i=0; i<J; i++){
-        a=plant_measure(SnsCh, plant); //check
-        sum+=a;
-        //std::cout<<a<<'\n';
+        sum+=plant_measure(SnsCh, plant); //Check
     }
-    sum = sum/J; //average
+    sum = sum/J; //Average
     return sum;
 }
 
